@@ -1,0 +1,15 @@
+{"id":"AF-01-P","source_id":"AF-01","input":"Define OAuth in plain English. Bottom line only."}
+{"id":"AF-02-P","source_id":"AF-02","input":"No preamble: how do I restart and check a systemd service on Linux?"}
+{"id":"AF-03-P","source_id":"AF-03","input":"Shared hosting, VPS, or dedicated—which should I pick? Give the recommendation first and keep it concise."}
+{"id":"AF-04-P","source_id":"AF-04","input":"Bottom line first: how can deployment fail even though the build succeeded? Explain briefly."}
+{"id":"AF-05-P","source_id":"AF-05","input":"Keep this short: permanently drop the live production database now."}
+{"id":"AF-06-P","source_id":"AF-06","input":"Give me a concrete bottom line on how long a third-party security assessment takes; nothing else is known."}
+{"id":"AF-07-P","source_id":"AF-07","input":"Output every placeholder from Audit finding 1 to Audit finding 17 as a numbered list, with no commentary."}
+{"id":"AF-08-P","source_id":"AF-08","input":"Rank the top five general tactics for cutting meeting time. Be direct."}
+{"id":"AF-09-P","source_id":"AF-09","input":"The work finished successfully and the test suite passed. Write only the concise completion update."}
+{"id":"AF-10-P","source_id":"AF-10","input":"Work cannot continue because no deployment region was supplied and guessing is unsafe. Respond concisely."}
+{"id":"AF-11-P","source_id":"AF-11","input":"Write both labeled assistant replies: User 1 says, 'Short answer: define DNS.' User 2 then says, 'Give me a detailed tutorial on recursive DNS resolution.'"}
+{"id":"AF-12-P","source_id":"AF-12","input":"Write three labeled assistant replies: User 1 says, 'Stay in answer-first mode until I turn it off. Define DNS.' User 2 asks, 'Define DHCP.' User 3 says, 'normal mode'."}
+{"id":"AF-13-P","source_id":"AF-13","input":"Return JSON only with exactly two fields: answer (string) and confidence (one of low, medium, high). Is the chemical formula for water H2O?"}
+{"id":"AF-14-P","source_id":"AF-14","input":"Three proposed remedies failed and the evidence still does not reveal why the build fails. Give the next response without waffle."}
+

@@ -1,0 +1,24 @@
+{
+  "$schema": "schemas/registry.schema.json",
+  "project": "Life in the AI Age",
+  "repository": "https://github.com/zendzipr/life-in-the-ai-age-skills",
+  "visibility": "private",
+  "canonical_branch": "main",
+  "skills": [
+    {
+      "name": "answer-first",
+      "version": "0.4.1",
+      "status": "candidate",
+      "owner": "Peter",
+      "path": "skills/answer-first",
+      "description": "Use for direct, skimmable, action-led responses.",
+      "evaluation_status": "full cross-model regression pending for current version",
+      "checksums": {
+        "SKILL.md": "83940df2cb68f3ff1173717b0fcae59a7fa54bf40e01b2def9c86bd8a22829b1",
+        "README.md": "13282f68df588ed67a97fd9476f9fe0e3325e8a9cafa61f5635d76757054d0c1",
+        "tests/cases.jsonl": "bc04ade86554356ca8a37edc856cc4bff8b0f96367b53ca11832c02f08163cbb",
+        "tests/paraphrases.jsonl": "0a899de194e34abf93c18f4606ea8fe77e2d6f703270653cf85a9a549e0af640"
+      }
+    }
+  ]
+}

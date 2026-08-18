@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zendzipr/life-in-the-ai-age-skills/schemas/test-case.schema.json",
+  "title": "Skill Regression Test Case",
+  "type": "object",
+  "required": ["id", "objective", "input", "required_context", "expected_behavior", "disallowed_behavior", "validators", "severity", "tags", "notes"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "objective": {"type": "string", "minLength": 1},
+    "input": {"type": "string"},
+    "required_context": {"type": "object"},
+    "expected_behavior": {"type": "array", "items": {"type": "string"}},
+    "disallowed_behavior": {"type": "array", "items": {"type": "string"}},
+    "validators": {"type": "array", "items": {"type": "string"}},
+    "severity": {"enum": ["low", "medium", "high", "critical"]},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}

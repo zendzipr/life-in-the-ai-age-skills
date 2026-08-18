@@ -1,0 +1,21 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.git-credentials
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Generated temporary evaluation output
+.tmp/
+tmp/
