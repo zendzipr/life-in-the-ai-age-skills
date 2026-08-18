@@ -126,8 +126,8 @@ def main() -> int:
         errors.append("registry.json: unexpected project name")
     if registry.get("repository") != "https://github.com/zendzipr/life-in-the-ai-age-skills":
         errors.append("registry.json: unexpected repository URL")
-    if registry.get("visibility") != "private":
-        errors.append("registry.json: repository must remain private unless explicitly changed")
+    if registry.get("visibility") != "public":
+        errors.append("registry.json: repository visibility must match the public GitHub repository")
     if registry.get("canonical_branch") != "main":
         errors.append("registry.json: canonical branch must be main")
 

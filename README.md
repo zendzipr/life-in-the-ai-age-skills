@@ -1,6 +1,6 @@
 # Life in the AI Age Skills
 
-A private library of reusable instructions that help AI tools perform specific tasks or follow a consistent way of working.
+A public library of reusable instructions that help AI tools perform specific tasks or follow a consistent way of working.
 
 Each skill includes:
 
@@ -53,4 +53,4 @@ python3 scripts/validate_repo.py
 
 ## Privacy
 
-This is a private repository. Do not add passwords, API keys, private keys, `.env` files, confidential source material, or unreviewed conversation exports.
+This is a public repository. Do not add passwords, API keys, private keys, `.env` files, confidential source material, or unreviewed conversation exports.

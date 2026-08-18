@@ -2,7 +2,7 @@
   "$schema": "schemas/registry.schema.json",
   "project": "Life in the AI Age",
   "repository": "https://github.com/zendzipr/life-in-the-ai-age-skills",
-  "visibility": "private",
+  "visibility": "public",
   "canonical_branch": "main",
   "skills": [
     {

@@ -2,7 +2,7 @@
 
 ## Mission
 
-Maintain the canonical private database of Life in the AI Age AI skills, documentation, tests, evaluations, and release metadata.
+Maintain the canonical public database of Life in the AI Age AI skills, documentation, tests, evaluations, and release metadata.
 
 ## Authority
 
