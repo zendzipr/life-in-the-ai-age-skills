@@ -17,6 +17,6 @@
 - Added explicit investor-pitch behavior for missing core company details and a required Investor-Readiness Gaps section.
 - Corrected the premature-dossier regression case to align with the skill's evidence gate.
 - Added initial behavioral and paraphrase test cases.
-- Added a plain-language how-to for people using the skill without command-line experience.
+- Expanded `README.md` with a plain-language step-by-step guide for people using the skill without command-line experience.
 
 Current status: candidate. The telemetry-verified primary-model critical suite passed; controlled cross-model evaluation remains required before release.

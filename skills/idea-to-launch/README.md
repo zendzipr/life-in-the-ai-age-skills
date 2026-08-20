@@ -77,25 +77,68 @@ The skill uses conservative, base, and upside scenarios. It exposes formulas and
 
 This skill does not replace professional legal, tax, accounting, investment, or regulated-industry advice.
 
-## Start a guided session
+## Simple step-by-step guide
 
-A useful first request is:
+You do not need a formal business plan before starting. A short description of the idea is enough.
 
-> Use Idea to Launch to help me evaluate and develop this business idea: [describe the idea]. Walk me through the process and research what can be verified.
+### 1. Add the skill files
 
-For a faster first draft:
+Use an AI assistant that lets you attach files or add project instructions. Add:
+
+- `SKILL.md`
+- `templates/working-business-brief.md`
+- `templates/business-launch-dossier.md`
+
+Allow web access when you want current competitor, pricing, market, or regulatory research.
+
+### 2. Start the process
+
+Send this message:
+
+> Use the Idea to Launch skill to help me evaluate and develop this business idea: [describe your idea]. Walk me through the process one step at a time.
+
+A useful description might be:
+
+> I want to offer a monthly bookkeeping service for small online shops in the United Kingdom. I have not spoken with potential customers yet, and I want to know whether the idea is worth testing.
+
+For a faster first draft, say:
 
 > Use Idea to Launch in autonomous draft mode. Research this idea, make reversible assumptions where needed, and clearly label every assumption and unresolved decision: [describe the idea].
 
-For one bounded output:
+For one bounded output, say:
 
 > Use Idea to Launch to produce only a competitor teardown for this idea: [describe the idea]. Complete the research and evidence steps needed for that deliverable.
+
+### 3. Answer the questions
+
+The assistant will ask no more than three important questions at a time. It is fine to answer **“I don’t know.”** Unknown answers become research or validation tasks instead of invented facts.
+
+### 4. Review each checkpoint
+
+Read each checkpoint before choosing a path. The assistant should not quietly make important business decisions for you.
+
+### 5. Ask for the final dossier
+
+After the evidence and important decisions are ready, ask:
+
+> Create the final Business Launch Dossier using the latest Working Business Brief. Keep assumptions, unknowns, risks, and source links visible.
+
+### 6. Check the result before acting
+
+Confirm that:
+
+- current claims include source links and dates;
+- assumptions are labelled;
+- financial figures show their formulas and inputs;
+- customer, price, costs, geography, and verdict agree throughout;
+- legal, tax, accounting, medical, safety, or regulatory questions are reviewed by an appropriate professional.
+
+If a major assumption changes, ask the assistant to update the Working Business Brief and regenerate every affected section before relying on the plan.
 
 ## Files in this skill
 
 - `SKILL.md` — complete workflow and safeguards
-- `HOW-TO.md` — plain-language setup and usage guide
-- `README.md` — setup and usage instructions
+- `README.md` — plain-language setup and usage guide
 - `CHANGELOG.md` — version history
 - `templates/working-business-brief.md` — shared source-of-truth template
 - `templates/business-launch-dossier.md` — final package template
@@ -165,4 +208,4 @@ Otherwise:
 
 ## Status
 
-Version `0.1.0` is a draft. Its package structure and test fixtures can be validated offline, but model-backed behavioral and cross-model regressions are still required before candidate or released status.
+Version `0.1.0` is a candidate. Its telemetry-verified primary-model critical suite passed with no unresolved critical failures. Controlled cross-model evaluation remains required before release.

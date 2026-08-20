@@ -30,9 +30,8 @@
       "evaluation_status": "candidate approved after primary-model critical suite; cross-model release evidence pending",
       "checksums": {
         "SKILL.md": "9a243e28f7f2c810abef0f1592f2971ef0411566d7cb4ba8ae9462a3223e2f34",
-        "HOW-TO.md": "a764691ed5daf695507120640bc88c520a66ff322bd77a8f161279ab3842b8ce",
-        "README.md": "024fc5d8387f0accdd37850553750ddc082fe556e54c02668a424205c49d4371",
-        "CHANGELOG.md": "3e52a7ee47202fe1a634274df664fe1ad6696f83478d47dab28486453188179b",
+        "README.md": "eef9df52820d536706c36a56707fdec6c478c891a575d28d82c234efd5412e7e",
+        "CHANGELOG.md": "e412946c88f789ab348a5142000ee271f3c53ee17eba9c3283759ca2d69de4cb",
         "tests/cases.jsonl": "c0439c99277d2ac2f9dfce8b0dadef10d35510316455e3cbdb954cfb7b61ba4e",
         "tests/paraphrases.jsonl": "4c41acc41e03cccbc20561f93e0e9cbcf7581722691dbee6eee56b43a4c02250",
         "templates/working-business-brief.md": "553b7edf99751a6c61554cfeca549933d3a89c6b1b4cb0764ad1a31b79651db5",
