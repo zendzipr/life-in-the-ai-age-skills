@@ -1,0 +1,4 @@
+raw/
+run_primary_suite.py
+validate_primary_suite.py
+__pycache__/

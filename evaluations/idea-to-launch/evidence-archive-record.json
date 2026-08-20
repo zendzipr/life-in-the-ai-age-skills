@@ -1,0 +1,14 @@
+{
+  "skill": "idea-to-launch",
+  "version": "0.1.0",
+  "archive_file": "pre-public-handoff-20260819T203254Z.tar.gz",
+  "archive_sha256": "80ec7f5a37f2c464bb14fbcfa85e518eb43c6386c2c8172853a2a6421bce4363",
+  "archive_entries": 512,
+  "contains_full_raw_outputs": true,
+  "contains_tool_and_session_traces": true,
+  "contains_evaluation_runners": true,
+  "public_repository_includes_archive": false,
+  "reason_withheld": "Full session exports contain profile prompts, local paths, and operational context that should not be published in a public repository.",
+  "preservation_status": "PRESERVED_IN_PRIVATE_PROFILE_ARCHIVE",
+  "candidate_skill_sha256": "9a243e28f7f2c810abef0f1592f2971ef0411566d7cb4ba8ae9462a3223e2f34"
+}

@@ -14,6 +14,7 @@ Each skill includes:
 | Skill | What it does | Status |
 |---|---|---|
 | [`answer-first`](skills/answer-first/README.md) | Puts the answer, result, or next action first | Candidate |
+| [`idea-to-launch`](skills/idea-to-launch/README.md) | Validates and develops a business idea into a launch dossier | Candidate |
 
 ## Using a skill
 

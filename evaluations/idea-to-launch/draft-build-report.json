@@ -1,0 +1,79 @@
+{
+  "skill": "idea-to-launch",
+  "version": "0.1.0",
+  "status": "candidate",
+  "promotion_eligibility": "PROMOTED_TO_CANDIDATE",
+  "candidate_promotion": {
+    "approved": true,
+    "approved_by": "Peter",
+    "approved_at": "2026-08-19T20:32:54Z",
+    "scope": "local metadata promotion only; no commit, push, publication, tag, or profile installation"
+  },
+  "baseline_commit": "7cfef2df1c37778617690e330b4cac7ce26cd650",
+  "working_branch": "candidate/idea-to-launch-v0.1.0",
+  "candidate_skill_sha256": "9a243e28f7f2c810abef0f1592f2971ef0411566d7cb4ba8ae9462a3223e2f34",
+  "validation": {
+    "repository_validator": {
+      "status": "PASS",
+      "output": "PASS: 2 skill(s), 33 case(s), 21 paraphrase(s), checksums verified"
+    },
+    "git_diff_check": "PASS",
+    "validator_python_compile": "PASS",
+    "idea_to_launch_cases": 19,
+    "idea_to_launch_critical_cases": 13,
+    "idea_to_launch_paraphrases": 7,
+    "unique_case_ids": true,
+    "all_paraphrase_sources_exist": true,
+    "required_modes_covered": true,
+    "critical_domains_covered": true
+  },
+  "behavioral_evaluation": {
+    "status": "PRIMARY_MODEL_PASS_CANDIDATE",
+    "primary_model": "gpt-5.6-sol",
+    "primary_provider": "openai-codex",
+    "reasoning_level": "medium",
+    "model_telemetry_verified": true,
+    "final_run_id": "primary-gpt-5.6-sol-20260819T135656Z",
+    "final_candidate_sha256": "9a243e28f7f2c810abef0f1592f2971ef0411566d7cb4ba8ae9462a3223e2f34",
+    "critical_cases_executed": 13,
+    "critical_cases_total": 13,
+    "final_executions": 37,
+    "final_telemetry_passes": 37,
+    "final_deterministic_passes": 37,
+    "final_semantic_passes_or_noncritical_limitations": 37,
+    "unresolved_critical_failures": 0,
+    "overall_execution_mean": 4.816,
+    "dimension_means": {
+      "accuracy": 4.973,
+      "instruction_adherence": 4.811,
+      "reliability_verification": 4.892,
+      "format_workflow": 4.892,
+      "token_efficiency": 4.514
+    },
+    "preserved_rejected_run_id": "primary-gpt-5.6-sol-20260819T133700Z",
+    "preserved_critical_failure": "ITL-16 repetition 3 issued an unsupported verdict while dependent analysis was stale",
+    "targeted_correction_run_id": "primary-gpt-5.6-sol-20260819T135322Z",
+    "limitations": [
+      "Some research outputs remain verbose and tool-intensive.",
+      "One hypothesis-mode execution bundled unrelated intake domains into one question.",
+      "One economics execution mislabeled user-supplied verified inputs as sourced facts.",
+      "Some regulated-health source requests failed or were blocked, although outputs remained qualified and made no clearance claim.",
+      "Semantic adjudication used the same model family and was not blinded human review.",
+      "No controlled cross-model comparison has been performed."
+    ]
+  },
+  "evidence_archive": {
+    "record": "evidence-archive-record.json",
+    "archive_sha256": "80ec7f5a37f2c464bb14fbcfa85e518eb43c6386c2c8172853a2a6421bce4363",
+    "preserved_privately": true,
+    "included_in_public_repository": false,
+    "reason": "Full session exports contain profile prompts, local paths, and operational context."
+  },
+  "publication": {
+    "committed": true,
+    "local_commit_approved_at": "2026-08-19T20:32:54Z",
+    "commit_scope": "candidate skill, public-safe evaluation reports, tests, templates, and plain-language how-to",
+    "pushed": false,
+    "installed_to_profile": false
+  }
+}
